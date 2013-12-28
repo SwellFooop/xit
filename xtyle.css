@@ -67,10 +67,14 @@ div.cyan{
 }
 div.wrapper{
     word-wrap: break-word;
+    background: #6f6194;
 }
-div.wrapperx{
+div.wrapper h2, div.wrapper h3, div.wrapper h4 {
+    color: #740014;
+}
+div.xapper{
     background: #0af50a;
-    margin: 0 auto;
+    margin: 10em auto;
 }
 .loaf{
     display: inline-block;
@@ -101,19 +105,37 @@ div.wrapperx{
 }
 .five{
     width: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
 }
 .six{
     width: 60%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
 }
 .seven{
     width: 70%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
 }
 .eight{
     width: 80%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
 }
 .nine{
     width: 90%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
 }
 .ten{
     width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
 }
