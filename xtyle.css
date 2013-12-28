@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 #header{
-    background-color: #294a58;
+    background: #294a58;
     text-align: center;
 }
 #content{
@@ -55,12 +55,65 @@ h1, h2, h3, h4, h5, h6{
     text-decoration: none;
 }
 a:hover{
-    background-color: #0000ff;
+    background: #0000ff;
 }
 #footer{
     color: #294a58;
     text-align: center;
 }
-
-
-
+div.cyan{
+    background: cyan;
+    padding-top: 4em;
+}
+div.wrapper{
+    word-wrap: break-word;
+}
+div.wrapperx{
+    background: #0af50a;
+    margin: 0 auto;
+}
+.loaf{
+    display: inline-block;
+}
+.one{
+    width: 10%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+.two{                                    /* !!!!!!!!!!!!!!! */
+    width: 20%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+.three{
+    width: 30%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+.four{
+    width: 40%;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+.five{
+    width: 50%;
+}
+.six{
+    width: 60%;
+}
+.seven{
+    width: 70%;
+}
+.eight{
+    width: 80%;
+}
+.nine{
+    width: 90%;
+}
+.ten{
+    width: 100%;
+}
