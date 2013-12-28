@@ -59,6 +59,10 @@ a:hover{
 }
 #footer{
     color: #294a58;
+    font-weight: bold;
+    font-size: 300%;
+    line-height: 100%;
+    font-family: Helvetica, Verdana, serif;
     text-align: center;
 }
 div.cyan{
@@ -78,6 +82,7 @@ div.xapper{
 }
 .loaf{
     display: inline-block;
+    vertical-align: top;
 }
 .one{
     width: 10%;
