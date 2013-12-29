@@ -8,34 +8,6 @@ h1, h2, h3, h4, h5, h6{
     color: #f5f5f5;  
     font-weight: bolder;
 }
-.button{
-    width: auto;
-    text-align: center;
-    padding: 10px 40px;
-    border: 1em solid #00bd50;
-    border-radius: 0.5em;
-    -moz-border-radius: 0.5em;                  /* for old version of firefox */
-    box-shadow:      5px 20px 5px 5px #bd006d;
-    -moz-box-shadow: 5px 20px 5px 5px #bd006d;  /* for old version of firefox */
-    color: #00ff00; /* green */
-    color: #ff0000; /* red   */
-    display: inline-block;
-    text-decoration: none;
-}
-.buttonx{
-    width: auto;
-    text-align: center;
-    padding: 10px 40px;
-    border: 1em solid #00bd50;
-    border-radius: 0.5em;
-    -moz-border-radius: 0.5em;                 
-    box-shadow:      10px 20px 10px 20px #bd006d;
-    -moz-box-shadow: 10px 20px 10px 20px #bd006d;
-    color: #00ff00; /* green */
-    color: #ff0000; /* red   */
-    display: inline-block;
-    text-decoration: none;
-}
 #container{
     width: 100%;
     text-align: center;
@@ -44,13 +16,11 @@ h1, h2, h3, h4, h5, h6{
     background: #294a58;
     text-align: center;
 }
-#content{
-    height: auto;
-    width: 100%;
+#nav{
     text-align: center;
 }
 #nav a{
-    color: #ffffff;
+    color: #ffffff; 
     font-style: normal;
     text-decoration: none;
 }
@@ -65,82 +35,96 @@ a:hover{
     font-family: Helvetica, Verdana, serif;
     text-align: center;
 }
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$ layout $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+div{
+    width: 100%;
+}
 div.cyan{
     background: cyan;
-    padding-top: 4em;
+    padding-top: 1em;
 }
 div.wrapper{
     word-wrap: break-word;
-    background: #6f6194;
+    text-align: center;
+    background: #817980;
 }
 div.wrapper h2, div.wrapper h3, div.wrapper h4 {
     color: #740014;
 }
 div.xapper{
     background: #0af50a;
-    margin: 10em auto;
+    margin: 5em auto;
 }
 .loaf{
     display: inline-block;
     vertical-align: top;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
 }
 .one{
     width: 10%;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
 }
 .two{                                    /* !!!!!!!!!!!!!!! */
     width: 20%;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
 }
 .three{
     width: 30%;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
 }
 .four{
     width: 40%;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
 }
 .five{
     width: 50%;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
 }
 .six{
     width: 60%;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
 }
 .seven{
     width: 70%;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
 }
 .eight{
     width: 80%;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
 }
 .nine{
     width: 90%;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
 }
 .ten{
     width: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: thick;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$ decoration $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.button{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding: 2% 0.5%;
+    border: 5px solid #00bd50;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;                  /* for old version of firefox */
+    box-shadow:      5px 20px 5px 5px #bd006d;
+    -moz-box-shadow: 5px 20px 5px 5px #bd006d;  /* for old version of firefox */
+    color: #00ff00; /* border: green */
+    color: #ff0000; /* text:   red   */
+    display: inline-block;
+    text-decoration: none;
+}
+/* widths are set due to padding and other unknown spaces... */
+.onebtn{
+    width: 99%;
+}
+.twobtn{
+    width: 48%;
+}
+.threebtn{
+    width: 31%;
+}
+.fourbtn{
+    width: 23%;         
+}
+.fivebtn{
+    width: 18%;
+}
+.sixbtn{
+    width: 14.5%;
 }
