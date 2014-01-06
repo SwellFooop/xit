@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6{
 #nav{
     text-align: center;
 }
-#nav a{
+#nav a, div a{
     color: #ffffff; 
     font-style: normal;
     text-decoration: none;
@@ -30,7 +30,7 @@ a:hover{
 #footer{
     color: #294a58;
     font-weight: bold;
-    font-size: 300%;
+    font-size: 200%;
     line-height: 100%;
     font-family: Helvetica, Verdana, serif;
     text-align: center;
@@ -102,8 +102,8 @@ div.xapper{
     border: 5px solid #00bd50;
     border-radius: 0.5em;
     -moz-border-radius: 0.5em;                  /* for old version of firefox */
-    box-shadow:      5px 20px 5px 5px #bd006d;
-    -moz-box-shadow: 5px 20px 5px 5px #bd006d;  /* for old version of firefox */
+    box-shadow:      5px 2px 5px 5px #bd006d;
+    -moz-box-shadow: 5px 2px 5px 5px #bd006d;  /* for old version of firefox */
     color: #00ff00; /* border: green */
     color: #ff0000; /* text:   red   */
     display: inline-block;
