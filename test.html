@@ -5,6 +5,9 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="author" content="Swell Fooop" /> 
     <link rel="stylesheet" href="xtyle.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="./css/lightbox.css" media="screen"/>
+	<script src="./js/jquery-1.10.2.min.js"></script>
+	<script src="./js/lightbox-2.6.min.js"></script>
     <title>Test Page</title>
 </head>
 
@@ -23,13 +26,6 @@
             </a> 
         </div>
      </div>
-     <div id="pic" class="modalDialog">
-        <div>
-            <a href="#close" title="Close" class="close"> X </a> 
-             <h4 id="heading">College English Textbook</h4>
-             <img src="./source/office.jpg" height="600" width="700" alt="textbook" />
-        </div>
-     </div>
      <div id="content">
      </div>
 
@@ -45,8 +41,8 @@
             </p>
         </div>
         <div class="loaf one">
-            <h3 id="ichi"><a href="#" class="button onebtn">ichi</a></h3>
-            <h3 id="ni"><a href="#" class="button onebtn">ni</a></h3>
+            <h3 id="ichi"><a href="./source/office.jpg" class="button onebtn" data-lightbox="office" title="My Office">ichi</a></h3>
+            <h3 id="ni"><a href="./source/chipmunk.jpg" class="button onebtn" data-lightbox="chipmunk" title="A chipmunk is eating!">ni</a></h3>
             <h3 id="san"><a href="#" class="button onebtn">san</a></h3>
             <h3 id="yo"><a href="#" class="button onebtn">yon</a></h3>
             <h3 id="go"><a href="#" class="button onebtn">go</a></h3>
