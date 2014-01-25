@@ -1,3 +1,6 @@
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$ general $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 body{
     background: #ff6500; 
     color: #001e34; 
@@ -35,7 +38,10 @@ a:hover{
     font-family: Helvetica, Verdana, serif;
     text-align: center;
 }
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$ layout $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 div{
     width: 100%;
 }
@@ -92,7 +98,10 @@ div.xapper{
 .ten{
     width: 100%;
 }
-/*$$$$$$$$$$$$$$$$$$$$$$$$ decoration $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$ decorations $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 .button{
     width: 100%;
     margin-left: 0px;
@@ -101,9 +110,17 @@ div.xapper{
     padding: 2% 0.5%;
     border: 5px solid #00bd50;
     border-radius: 0.5em;
-    -moz-border-radius: 0.5em;                  /* for old version of firefox */
+    -webkit-border-radius: 0.5em;                  
+    -moz-border-radius: 0.5em;                
+    -o-border-radius: 0.5em;                  
     box-shadow:      5px 2px 5px 5px #bd006d;
-    -moz-box-shadow: 5px 2px 5px 5px #bd006d;  /* for old version of firefox */
+    -moz-box-shadow: 5px 2px 5px 5px #bd006d; 
+    -webkit-box-shadow: 5px 2px 5px 5px #bd006d; 
+    -o-box-shadow: 5px 2px 5px 5px #bd006d; 
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
     color: #00ff00; /* border: green */
     color: #ff0000; /* text:   red   */
     display: inline-block;
@@ -128,3 +145,63 @@ div.xapper{
 .sixbtn{
     width: 14.5%;
 }
+.modalDialog{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5;
+    right: 10;
+    bottom: 10;
+    left: 10;
+    background: #2c373b;
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    -o-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog h1, .modalDialog h2, .modalDialog h3, .modalDialog h4,.modalDialog h5{
+    color: #003b21;
+}
+.modalDialog:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog>div{
+    width: 800px;
+    height: 700px;
+    position: relative;
+    margin: 1% auto;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+.close{
+    background: #ff9100;
+    color: #ffffff;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 2px 3px #000;
+    -webkit-box-shadow: 1px 2px 3px #000;
+    -o-box-shadow: 1px 2px 3px #000;
+    box-shadow: 1px 2px 3px #000;
+}
+.close:hover{
+    background: #00eeff;
+}
+
